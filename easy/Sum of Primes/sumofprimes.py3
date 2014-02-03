@@ -27,7 +27,7 @@ class Prime:
         return True
         
 def sum_primes(number):
-    """ Calculates the sum of the first x primes. 
+    """ Calculates the sum of the first x primes. See https://www.codeeval.com/open_challenges/4/
     
     Test:
     >>> sum_primes(3)

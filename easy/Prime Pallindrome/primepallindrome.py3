@@ -29,7 +29,7 @@ class Prime:
         return True
 
 class PrimePallindrome:
-    """ Finds a prime pallindrome. """
+    """ Finds a prime pallindrome. See https://www.codeeval.com/open_challenges/3/ """
     
     @staticmethod
     def find_highest(number):
