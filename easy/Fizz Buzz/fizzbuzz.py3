@@ -77,13 +77,13 @@ class FizzBuzz:
             results.append(result)
         return results
         
-    def solveAll(self):
+    def solveall(self):
         """ Solves all fizz buzz quiz. Returns list of lists. 
         
         Test:
         >>> fb = FizzBuzz()
         >>> fb.params = [(3, 5, 15), (2, 3, 6)]
-        >>> fb.solveAll()
+        >>> fb.solveall()
         [['1', '2', 'F', '4', 'B', 'F', '7', '8', 'F', 'B', '11', 'F', '13', '14', 'FB'], ['1', 'F', 'B', 'F', '5', 'FB']]
         """
         result = []
@@ -95,7 +95,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         fb = FizzBuzz()
         fb.readinput(sys.argv[1])
-        solution = fb.solveAll()
+        solution = fb.solveall()
         fb.prettyprint(solution)
     else:
         import doctest
