@@ -7,9 +7,6 @@ class ReverseWords:
     
     DELIMITER = ' '
     
-    def __init__(self):
-        self.words = []
-    
     def prettyprint(self, words):
         """ Prints tuples of words. Can take a single tuple or a list of 
         tuples. 
