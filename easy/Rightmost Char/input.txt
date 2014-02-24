@@ -1,0 +1,4 @@
+Hello World,r
+Hello CodeEval,E
+
+All your base are belong to us,t
