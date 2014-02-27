@@ -1,6 +1,6 @@
 class ArmstrongNumbers:
-    """ Solves the sum of digits challenge. See 
-    https://www.codeeval.com/open_challenges/21/ for more information. """
+    """ Solves the armstrong numbers challenge. See 
+    https://www.codeeval.com/open_challenges/82/ for more information. """
 
     def readinput(self, file_name):
         """ Read the input file.
